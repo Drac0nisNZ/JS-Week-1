@@ -41,28 +41,29 @@
 // const reverseLetters = (str) => {};
        
 
-function numbers(n) {
-    return n >= '0' && n <= '9' // returns a True/False for each character checked if it is a number
-}
+// function numbers(n) {
+//     return n >= '0' && n <= '9' // returns a True/False for each character checked if it is a number
+// }
 
-function reverseWord(str) {
-    let temp = [] // storage for non-numeric string parts
+// function reverseWord(str) {
+//     let temp = [] // storage for non-numeric string parts
 
-    for (let i = 0; i < str.length; i++) {
-        if (!numbers(str[i])){
-            temp.push(str[i]);
-        }
-    }
+//     for (let i = 0; i < str.length; i++) {
+//         if (!numbers(str[i])){
+//             temp.push(str[i]);
+//         }
+//     }
     
-    let result = []
-    for (let i = 0; i < str.length; i++) {
-        if (!numbers(str[i])){
-            result += temp.pop()
-        } else {
-            result += str[i]
-        }
-    }
-    return result
-}
+//     let result = []
+//     for (let i = 0; i < str.length; i++) {
+//         if (!numbers(str[i])){
+//             result += temp.pop()
+//         } else {
+//             result += str[i]
+//         }
+//     }
+//     return result
+// }
 
-console.log(reverseWord('uihds214ihu53'));
+// console.log(reverseWord('uihds214ihu53'));
+
